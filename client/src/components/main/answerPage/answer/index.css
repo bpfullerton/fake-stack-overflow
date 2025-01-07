@@ -1,0 +1,67 @@
+/* All the CSS related to answers Page */
+.answer {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  border-bottom: #000000 1px dashed;
+}
+
+.answerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.answerText {
+  width: 75%;
+}
+
+.answerAuthor {
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+.answer_author {
+  color: green;
+}
+
+.channelButtons {
+  margin-top: 10px;
+  padding: 5px; /* Reduce padding to make it less tall */
+}
+
+.channelButton {
+  padding: 5px 10px; /* Reduce padding to make it less tall */
+  border: 1px solid #314356;
+  background-color: #394756;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.channelButton:hover {
+  background-color: #0056b3;
+}
+
+.threadCreation {
+  margin-top: 10px;
+}
+
+.threadNameInput {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.bluebtn_small {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bluebtn_small:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,64 @@
+.answer_question_meta {
+  color: #bbbbbb;
+}
+
+.ansButton {
+  margin: 2% 0 2% 2%;
+}
+
+.createThread_meta {
+  color: #bbbbbb;
+}
+
+.createThreadButton {
+  margin: 2% 0 2% 2%;
+}
+
+.channelButtons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.channelButton {
+  padding: 10px 20px;
+  border: 1px solid #314356;
+  background-color: #394756;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.channelButton:hover {
+  background-color: #0056b3;
+}
+
+
+.threadPreview {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #d3d3d3;
+  background-color: transparent; /* Set background to transparent */
+  color: black; /* Set text color to black when background is transparent */
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  text-align: left;
+  line-height: 1.2;
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for background and text color */
+}
+
+.threadPreview:hover {
+  border: 1px solid #e1e9ea;
+  background-color: #c7def6; /* Change background color on hover */
+  color: rgb(86, 86, 86); /* Change text color to white on hover */
+}
+
+.threadTitle {
+  font-size: 0.75em;
+  font-weight: bold;
+  text-align: left;
+  margin: 0;
+}

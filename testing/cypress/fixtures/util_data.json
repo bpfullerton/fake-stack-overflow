@@ -1,0 +1,4 @@
+{
+    "db_uri": "mongodb+srv://fullertonb:7s4n6wbcH3eLLcSw@db-cs4530-f24-911.14jmu.mongodb.net",
+    "stabilizer_options": { "pollInterval": 1000, "timeout": 10000 }
+}
